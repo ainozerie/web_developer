@@ -112,6 +112,7 @@ main {
 }
 .nickname {
     color: var(--red);
+    font-size: 12px;
 }
 .message:nth-child(even) .nickname {
     color: var(--blue);
