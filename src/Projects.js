@@ -26,7 +26,7 @@ export default function Home() {
         <h1>PROJECTS</h1>
         <div className='project'>
             <h3 name='foodapp' onClick={clickhandler}>FOOD APP 🍓</h3>
-            <p>An app to control the amount of calories that you absorb.</p>
+            <p>An app to control the amount of calories that you absorb. You can enter any product and get information about how many carbohydrates, protein and fat it includes.</p>
         </div>
         <div className='project' >
             <h3 name='todolist' onClick={clickhandler}>TODO LIST 📝</h3>
