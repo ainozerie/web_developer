@@ -5,8 +5,8 @@ import Screen from './Screen'
 export default function () {
   return (
     <div className='window'>
-            <Screen /> //left part
-            <Console /> //right part
+            <Screen />
+            <Console /> 
             
 
     </div>
