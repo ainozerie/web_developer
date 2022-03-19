@@ -8,8 +8,8 @@ function App() {
   return (
     <main>
       <div className='header'></div>
-      <Navigation /> // navigation between pages
-      <Window /> // main sector
+      <Navigation />
+      <Window />
       <Contact />
     </main>
   );
