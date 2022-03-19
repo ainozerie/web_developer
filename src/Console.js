@@ -8,6 +8,7 @@ export default function Console() {
   const messages = useSelector(state => state.messages)
   const [count, setCount] = useState(false);
 
+  //timeout for the first log in 'console'
   useEffect(() => {
     const timer = setTimeout(() => {
       setCount(true);
@@ -15,7 +16,7 @@ export default function Console() {
     }, 2000);
     return () => clearTimeout(timer);
   }, []);
-  
+  // displaying only 5 last logs
   const messagesFilter = messages.filter(item => {
     if (messages.indexOf(item) >= (messages.length - 5)) {
       return item;

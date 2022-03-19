@@ -1,3 +1,5 @@
+// all posssible messages to display in 'console' and a funstion that returns it
+
 const messagesStore = {
     home: {
         sender: 'personal',
@@ -45,13 +47,13 @@ const messagesStore = {
         sender: 'personal',
         message: 'created using React, axios and third party API',
         github: 'https://github.com/ainozerie/countries',
-        explore: ''
+        explore: 'https://countries-neon.vercel.app'
     },
     bookdirectory: {
         sender: 'personal',
         message: 'node and Express were used for backend, frontend was written with React and axios',
         github: 'https://github.com/ainozerie/book-directory-frontend',
-        explore: ''
+        explore: 'https://book-directory-frontend.vercel.app'
     },
     html: {
         sender: 'personal',

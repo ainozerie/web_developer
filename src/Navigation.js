@@ -17,7 +17,7 @@ export default function Navigation() {
   const classLocation = (place) => {
     return (location === place) ? 'picked' : 'not';
   }
-  
+  // changing location to display sppropriate component and launching 'console' command
   function clickhandler(event) {
     console.log(messages)
     dispatch({
