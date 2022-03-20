@@ -12,9 +12,9 @@ export default function Home() {
     <div className='about'>
         <h1>ABOUT ME</h1>
         <p>
-          An interest for programming grew up from an internal inner question: how things work 💡.
-          That is why several years ago I have started to learn HTML, CSS and Javascript in my spare time 🐣.
-          After a while, I have decided that  to dedicate yourself to this field 🐝 .
+          An interest for programming grew up from an internal inner question: how things work 💡,
+          which led me to the self-taught path of learning HTML, CSS and Javascript several years ago and 
+          through which I have decided to dedicate myself to programming field 🐝 .
         </p>
         <p>
           Currently, I am a student at Business College Helsikni on Web Development program on the final stage of my studies 👨🏼‍💻.
